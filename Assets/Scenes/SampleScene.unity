@@ -1008,6 +1008,111 @@ RectTransform:
   m_AnchoredPosition: {x: 529.2, y: 65.8}
   m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &101665916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101665920}
+  - component: {fileID: 101665919}
+  - component: {fileID: 101665918}
+  - component: {fileID: 101665917}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &101665917
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101665916}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &101665918
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101665916}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 668817c683151a64f90315c75b19d819, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &101665919
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101665916}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &101665920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101665916}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 292.51245, y: 58.429264, z: -2585.2}
+  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &110094213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,7 +1151,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5bcf0ae1fe99e744d80379f306715b51, type: 2}
+  - {fileID: 2100000, guid: e379cabba68e2734ba4812d371d65bf3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1084,12 +1189,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110094213}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.64206904, y: 0.2962218, z: -0.2962218, w: -0.64206904}
-  m_LocalPosition: {x: 1.2171187, y: 0.143776, z: -0.010499992}
-  m_LocalScale: {x: 0.0033300514, y: 0.0025, z: 0.0037787487}
+  m_LocalRotation: {x: -0, y: 0.90802336, z: -0.000000010014047, w: 0.41891947}
+  m_LocalPosition: {x: 0.5223, y: 0.9169, z: -0.2923}
+  m_LocalScale: {x: 0.009694472, y: 0.033333335, z: 0.01032541}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 199653678}
+  m_Father: {fileID: 829010569}
   m_LocalEulerAnglesHint: {x: 0, y: 220.467, z: 0}
 --- !u!1 &113399923
 GameObject:
@@ -2180,12 +2285,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149774272}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 1.5816412, y: 0.035387903, z: 0.01699997}
-  m_LocalScale: {x: 0.15166244, y: 0.14999999, z: 0.35436285}
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
+  m_LocalPosition: {x: -0.09249864, y: 0.90873456, z: 0.06500038}
+  m_LocalScale: {x: 0.4999999, y: 2, z: 0.7499998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 199653678}
+  m_Father: {fileID: 829010569}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &150884059
 GameObject:
@@ -22463,19 +22568,10 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7502430477536290682, guid: 56ee6b66de7cd584cad65e28fee1aa9e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 110094216}
-    - targetCorrespondingSourceObject: {fileID: 7502430477536290682, guid: 56ee6b66de7cd584cad65e28fee1aa9e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 149774275}
-    - targetCorrespondingSourceObject: {fileID: 7502430477536290682, guid: 56ee6b66de7cd584cad65e28fee1aa9e, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2114557645}
     - targetCorrespondingSourceObject: {fileID: 7502430477536290682, guid: 56ee6b66de7cd584cad65e28fee1aa9e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 829010569}
-    - targetCorrespondingSourceObject: {fileID: 7502430477536290682, guid: 56ee6b66de7cd584cad65e28fee1aa9e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1317456018}
     - targetCorrespondingSourceObject: {fileID: 7502430477536290682, guid: 56ee6b66de7cd584cad65e28fee1aa9e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 612473281}
@@ -22672,7 +22768,16 @@ PrefabInstance:
     - target: {fileID: 1458266945367828082, guid: 68e4b46c2d5f0d344a15c3f855014488, type: 3}
       propertyPath: m_text
       value: Hardened by their work in the mines, the Dwarves of Frehill slept on
-        beds of solid stone.
+        beds of solid stone (most settlers elected to replace these beds with more
+        comfortable ones once they moved in)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458266945367828082, guid: 68e4b46c2d5f0d344a15c3f855014488, type: 3}
+      propertyPath: m_fontSize
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458266945367828082, guid: 68e4b46c2d5f0d344a15c3f855014488, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1753402624024609663, guid: 68e4b46c2d5f0d344a15c3f855014488, type: 3}
       propertyPath: m_Mesh
@@ -22736,11 +22841,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8556984488374694789, guid: 68e4b46c2d5f0d344a15c3f855014488, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5185123
+      value: -0.309
       objectReference: {fileID: 0}
     - target: {fileID: 8556984488374694789, guid: 68e4b46c2d5f0d344a15c3f855014488, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.347268
+      value: 1.0727
       objectReference: {fileID: 0}
     - target: {fileID: 8556984488374694789, guid: 68e4b46c2d5f0d344a15c3f855014488, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23768,8 +23873,8 @@ Transform:
   m_GameObject: {fileID: 288920047}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 1.1445937, y: 1.0540539, z: 0.047000006}
-  m_LocalScale: {x: 2.5277073, y: 2.5, z: 5.9060473}
+  m_LocalPosition: {x: 1.092, y: 1.226, z: 0.047000006}
+  m_LocalScale: {x: 3, y: 3, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 199653678}
@@ -69048,7 +69153,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.4999985, y: -0.49999985, z: 0.50000006, w: 0.50000155}
   m_LocalPosition: {x: -0.6265583, y: 1.1293792, z: 0.15585399}
-  m_LocalScale: {x: 0.10110829, y: 0.099999994, z: 0.23624194}
+  m_LocalScale: {x: 0.10110829, y: 0.055555556, z: 0.23624194}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 703986133}
@@ -69609,7 +69714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8556984488374694789, guid: b84d241786664f049b015d4f43de3816, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2663.2012
+      value: -2773.2
       objectReference: {fileID: 0}
     - target: {fileID: 8556984488374694789, guid: b84d241786664f049b015d4f43de3816, type: 3}
       propertyPath: m_LocalRotation.w
@@ -70571,10 +70676,13 @@ Transform:
   m_GameObject: {fileID: 829010566}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0000010728836, y: 0.7071068, z: -0.7071068, w: 0.0000010728836}
-  m_LocalPosition: {x: 1.537937, y: 0.055103987, z: 0.15331012}
-  m_LocalScale: {x: 0.47248372, y: 0.14999998, z: 0.30332488}
+  m_LocalPosition: {x: -0.044, y: 0.055103987, z: 0.15331012}
+  m_LocalScale: {x: 0.47248372, y: 0.075, z: 0.30332488}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1317456018}
+  - {fileID: 110094216}
+  - {fileID: 149774275}
   m_Father: {fileID: 199653678}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &841353755
@@ -81066,7 +81174,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Dwarves appear to have feared '
+  m_text: The Dwarves wrote in these books that exposure to the sun would immolate
+    them. Experimentation on captured Dwarves has confirmed this to be the case.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b7b1f76903bbffb47bb11ad01a666669, type: 2}
   m_sharedMaterial: {fileID: -6822105413593718160, guid: b7b1f76903bbffb47bb11ad01a666669, type: 2}
@@ -81384,13 +81493,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317456015}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 1.4623379, y: 0.13341247, z: 0.018149985}
-  m_LocalScale: {x: 0.050554145, y: 0.049999997, z: 0.118120946}
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
+  m_LocalPosition: {x: 0.16000333, y: 0.90106785, z: -0.2581677}
+  m_LocalScale: {x: 0.16666664, y: 0.6666667, z: 0.24999994}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1950129961}
-  m_Father: {fileID: 199653678}
+  m_Father: {fileID: 829010569}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1319876806
 Mesh:
@@ -97641,13 +97750,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355289180}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.021403432, y: 0.021405637, z: -0.7067825, w: 0.70678306}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.66265965, y: 1.1597121, z: 0.10400001}
-  m_LocalScale: {x: 0.05055208, y: 0.11812095, z: 0.005000201}
+  m_LocalScale: {x: 0.118121, y: 0.11812095, z: 0.005000201}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 199653678}
-  m_LocalEulerAnglesHint: {x: 93.468994, y: -90.00299, z: -90.00299}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!4 &1365376955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3522180239889014155, guid: 4f23c92dc2fbc4541911abcc817e1779, type: 3}
@@ -126021,8 +126130,8 @@ Transform:
   m_GameObject: {fileID: 2114557641}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0000010728836, y: 0.7071068, z: -0.7071068, w: 0.0000010728836}
-  m_LocalPosition: {x: 1.5591965, y: 0.29220298, z: 0.1558499}
-  m_LocalScale: {x: 0.47248372, y: 0.19999996, z: 0.20221657}
+  m_LocalPosition: {x: -0.023, y: 0.29220298, z: 0.1558499}
+  m_LocalScale: {x: 0.47248372, y: 0.1, z: 0.20221657}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 199653678}
@@ -126752,3 +126861,4 @@ SceneRoots:
   - {fileID: 564975424}
   - {fileID: 1419821396}
   - {fileID: 771287810}
+  - {fileID: 101665920}
